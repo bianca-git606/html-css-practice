@@ -1,0 +1,85 @@
+body {
+    margin: 2rem 5% 4rem 5%;
+    background-color: #191825;
+}
+
+header, nav, article {
+    text-align: center;
+}
+
+nav {
+    background-color: #20262E;
+}
+
+main{
+    background-color: white;
+}
+
+section {
+    display: flex;
+    margin: auto;
+}
+
+article {
+    margin: auto;
+    flex: 1;
+    padding: 3rem;
+}
+
+footer {
+    display: flex;
+    color: #F1F6F9;
+    background-color: #20262E;
+    text-align: center;
+}
+
+nav ul {
+    align-items: center;
+}
+
+header > img {
+    margin: auto auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: Light 300 Italic;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+li a {
+    padding: .7rem;
+    letter-spacing: .1rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #D5CEA3;
+}
+
+footer div {
+    flex: 1;
+    align-items: center;
+}
+
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.cards:hover{
+    box-shadow: 5px 6px 6px 2px rgb(52, 49, 49);
+    transform: scale(1.1);
+}
+
+.card > img {
+    margin: auto;
+    width: 50%;
+}
